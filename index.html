@@ -1,0 +1,678 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="author" content="M_Adnan" />
+<!-- Document Title -->
+<title>Saman Farahmand | Bioinformatics | Computational Biology | University of Massachusetts Boston</title>
+
+<!-- StyleSheets -->
+<link rel="stylesheet" href="css/ionicons.min.css">
+<link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+
+<!-- FontsOnline -->
+<link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700' rel='stylesheet' type='text/css'>
+
+<!-- JavaScripts -->
+<script src="js/vendors/modernizr.js"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script>
+$(document).ready(function(){
+	var maxLength = 200;
+	$(".show-read-more").each(function(){
+		var myStr = $(this).text();
+		if($.trim(myStr).length > maxLength){
+			var newStr = myStr.substring(0, maxLength);
+			var removedStr = myStr.substring(maxLength, $.trim(myStr).length);
+			$(this).empty().html(newStr);
+			$(this).append(' <a href="javascript:void(0);" class="read-more">(...) Read More</a>');
+			$(this).append('<span class="more-text">' + removedStr + '</span>');
+		}
+	});
+	$(".read-more").click(function(){
+		$(this).siblings(".more-text").contents().unwrap();
+		$(this).remove();
+	});
+});
+</script>
+<style>
+    .show-read-more .more-text{
+        display: none;
+    }
+</style>
+</head>
+	
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	
+</head>
+<body>
+
+<!-- Page Wrapper -->
+<div id="wrap"> 
+  
+  <!-- Header -->
+ 
+  
+  <!-- End Header --> 
+  
+  <!-- Content -->
+  <main class="cd-main-content">
+    <div id="content" class="bg">
+      <div class="resume">
+        <div class="container"> 
+          
+          <!-- TOP HEAD -->
+
+          
+          <!-- Resume -->
+          <div class="row"> 
+            
+            <!-- Sidebar -->
+            <div class="col-md-4">
+              <div class="side-bar"> 
+                
+                <!-- Professional Details -->
+                <h5 class="tittle">Saman Farahmand</h5>
+                <img src="images/logo.png" class="img-responsive" alt="">
+                <ul class="personal-info">
+                  <li>
+                    <p> <span> Location</span> Boston, MA </p>
+                  </li>
+                  <li>
+                    <p> <span> Degree</span> Ph.D. </p>
+                  </li>
+                  <li>
+                    <p> <span> Address</span> <br/> Integrated Science Complex, Room 5360, 
+100 Morrissey Blvd.
+Boston, MA 02125 </p>
+                  </li>
+                  <li>
+                    <p> <span> E-mail</span> <a href="#."> <br/>saman.farahmand001'at'umb.edu</a></p>
+                  </li>
+                </ul>
+                
+                
+                <!-- Social Profiles -->
+                <h5 class="tittle">Social Profiles</h5>
+                <div class="social-icon bor-btm padding-5">
+                  <ul>
+                    <li> <a href="https://www.linkedin.com/in/samfrm"> <i class="fa fa-linkedin" title="Linkedin"></i></a> </li>
+                    <li> <a href="https://www.researchgate.net/profile/Saman_Farahmand"> <i class="fa fa-book" title="Publication"></i></a> </li>
+                    <li> <a href="https://www.facebook.com/samanfm"> <i class="fa fa-facebook" title="Facebook"></i></a> </li>
+                    <li> <a href="skype:samanfrm?chat"> <i class="fa fa-skype" title="Skype"></i></a> </li>
+                  </ul>
+                </div>
+                
+                <!-- Contact Me -->
+
+              </div>
+            </div>
+            
+            <!-- MAIN CONTENT -->
+            <div class="col-md-8"> 
+              
+              <!-- NAV LINKS -->          
+              <nav> 
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-tabis" aria-expanded="false"> <span class="tittle">MENU</span> <span class="fa fa-navicon icon-nav"></span> </button>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="nav-tabis">
+                  <ul class="isop-filter nav nav-pills">
+                    <li role="presentation" class="active"><a href="#about-me" aria-controls="about-me" role="tab" data-toggle="tab"><i class="icon-user"></i> About Me</a></li>
+                    <li role="presentation"><a href="#resume" aria-controls="resume" role="tab" data-toggle="tab"><i class="icon-book-open"></i>Resume</a></li>
+					  <li role="presentation"><a href="#publications" aria-controls="publications" role="tab" data-toggle="tab"><i class="icon-docs"></i> Publications</a></li>
+					  <li role="presentation"><a href="#blog" aria-controls="blog" role="tab" data-toggle="tab"><i class="icon-notebook"></i> Research Blog</a></li>
+                    <li role="presentation"><a href="#contact" aria-controls="contact" role="tab" data-toggle="tab"> <i class="icon-pencil"></i>Contant Me</a></li>
+                  </ul>
+                </div>
+              </nav>
+              <!-- NAV LINKS END -->
+              
+              <div class="tab-content"> 
+                
+                <!-- ABOUT ME -->
+                <div role="tabpanel" class="tab-pane fade in active" id="about-me">
+                  <div class="inside-sec"> 
+                    <!-- BIO AND SKILLS -->
+                    <h5 class="tittle">About Me</h5>
+                    
+                    <!-- biography -->
+                    <section class="about-me padding-top-5"> 
+                                            <div class="padding-20">
+							<table>
+							   <tr>
+								  <td>
+									  <p class="p1">
+										  Saman Farahmand is a Ph.D. student in the Computational Sciences program, studying <b>Bioinformatics</b> and <b>Data Science</b> tracks at the University of Massachusetts Boston. In his dissertation, he focuses on developing efficient computational methods and rigorous statistical techniques for problems at the intersection of computational, biological, and clinical sciences. He holds a master's degree in Health IT engineering from University of Tehran, Iran, that investigated network-based breast cancer biomarker discovery using game theoretical approach. Prior to starting his master, he completed his B.Sc. in IT engineering at Shahrood University of Technology at Semnan, Iran. During his academic career, he has published several&nbsp;<a href="https://scholar.google.com/citations?user=Cwsh9G4AAAAJ&hl=en">papers</a> in scientific journals and conferences centering on <b>oncology and omics research</b>.
+										  From 2012 to 2017, he was a data analyst at Dadeh Gostaran Asia Faranegar (DAF) Co. developing <b>NLP</b> and <b>statistical learning methods</b> in various applications including web mining and spam-filtering. 
+
+                        </p>
+								   </td>
+								   <td align="right">
+								
+									   <a class="highlightit" href="#resume" aria-controls="resume" role="tab" data-toggle="tab" ><img src="images/saman-word-new.png" alt="bio" width="500"></a>
+							
+								   </td>
+								</tr>
+							</table>
+							
+                        
+                      </div>
+
+                      
+
+                    </section>
+                  </div>
+                </div>
+                
+                <!-- RESUME -->
+                <div role="tabpanel" class="tab-pane fade" id="resume">
+                  <div class="inside-sec"> 
+                    <!-- BIO AND SKILLS -->
+                    <h5 class="tittle">Bio & Skills</h5>
+                    <div class="bio-info padding-30">
+                     <p class="p1">Ph.D. student with 5-year track academic record of analyzing <b>high-throughput molecular
+data</b> for oncology and omics research and 4-year industry experience as data analyst.
+Strong experience to develop innovative <b>bioinformatics</b> algorithms and applications for
+<b>big data integration</b>, interpretation and visualization to serve the community. Excellent
+ability to manage multiple tasks at one time and work in a fast paced, highly collaborative
+and dynamic work environment.  
+
+                        </p>
+             
+                    </div>
+                  </div>
+                  
+                  <!-- Professional Experience -->
+                  <div class="inside-sec margin-top-10"> 
+                    <!-- Professional Experience -->
+                    <h5 class="tittle">Professional Experience</h5>
+                    <div class="padding-30 exp-history"> 
+                      
+                      <!-- Umass Boston -->
+                      <div class="exp">
+                        <div class="media-left"> <span class="sun">2017 - Present</span> </div>
+                        <div class="media-body">
+                          <div class="company-logo"> <img src="images/umass-logo.png" alt="" > </div>
+                          <h6>Research Assistant</h6>
+                          <p>Computational Biology Lab, Umass Boston</p>
+                          <p>Boston, MA</p>
+                         <p class="margin-top-10">
+						 
+							 <b style="color:black"> &mdash; </b> Implementing a <b>deep convolutional neural network</b> using Google inception architecture
+on stained H&E slide images from cancer tissues to precisely and automatically classify
+them into different categories such as cancer/normal samples, cancer subtypes, and
+							 mutational pattern of <b>histopathology</b> images. We have been collaborating with <b>Jackson
+							 Laboratory</b> and <b>Boston University</b> on this project  <b style="color:black"> (Manuscript is under review)</b>.<br/> 
+							 
+							 <b style="color:black"> &mdash; </b> Developing a network-based smoothing method following by a regularized nonnegative
+							 matrix factorization (NMF) in order to analyze sparse <b>single-cell RNA-seq </b>data
+							 <b style="color:black"> (Manuscript is under preparation)</b>.<br/>
+							 
+							 <b style="color:black"> &mdash; </b> Developed <b>CIE</b>, an integrated platform for identification and interpretation of <b>active
+							 regulators of transcriptional response</b>. The platform offers visualization tools and
+pathway enrichment analysis to map predicted regulators to Reactome pathways. We
+							 provide a parallelized <b>R-package</b> and a <b>Webserver</b> for fast and flexible regulatory
+inference analysis on any user-provided custom regulatory network and dysregulated
+genes. To increase the performance, we constructed a transcriptional regulatory network
+							 by integrating publicly available <b>ChIP-seq</b> experiments with tissue-specific <b>RNA-seq</b>
+							 experiments using a regularized Gaussian Graphical Model <b style="color:black">(Published in NAR 2019)</b>.<br/>
+							 
+							 <b style="color:black"> &mdash; </b> Implemented an innovative and accurate <b>text mining</b> pipeline, <b>MODEX</b>, to extract the mode of
+regulations for any ChIP-Seq datasets from biomedical literature. We targeted relevant
+							 citations from 24 million <b>PubMed</b> abstracts by submitting a well-designed query
+							 following by an accurate <b>entity recognition</b>, normalization and <b>relation extraction</b> to order
+							 to annotate regulatory interactions <b style="color:black">(Published in JBI 2020)</b>.
+							
+						 </p>	   	
+                        </div>
+                      </div>
+                      
+                      <!-- Teaching Assistant -->
+                      <div class="exp">
+                        <div class="media-left"> <span class="sun">2018 - Present</span> </div>
+                        <div class="media-body"> 
+                          <div class="company-logo"> <img src="images/umass-logo.png" alt="" > </div>
+                          <h6>Teaching Assistant</h6>
+                          <p>Umass Boston</p>
+                          <p>Boston, MA</p>
+                          <p class="margin-top-10"> <b style="color:black"> &mdash; </b> <b>General Biology I </b> (BIOL-111). Laboratory instructor in General Biology course, an integrated course stressing the principles of biology. </p>
+                        </div>
+                      </div>
+							
+					<!-- Novartis RA -->
+					<div class="exp">
+                        <div class="media-left"> <span class="sun">2018 (Aug-Sep)</span> </div>
+                        <div class="media-body"> 
+                          <div class="company-logo"> <img src="images/novartis-logo.png" alt="" > </div>
+                          <h6>Research Assistant</h6>
+                          <p>Novartis Institutes for Biomedical Research (NIBR)</p>
+                          <p>Cambridge, MA</p>
+                          <p class="margin-top-10">  <b style="color:black"> &mdash; </b> We analyzed in vitro <b>secondary pharmacology of common (off) targets </b> for 2134 marketed drugs. To associate these drugs with human ADRs, we utilized FDA Adverse
+Event Reports and developed Random Forest models to predict ADR occurrences from
+							  pharmacology profiles. I have been voluntarily collaborating with scientists from <b>MIT</b>,
+							  <b>Harvard University</b>, <b>Jackson Laboratory</b> on this project, supervised by pre-clinical safety
+(PCS) group at <b>Novartis</b> since Nov. 2018 <b style="color:black"> (Manuscript is under review)</b>.</p>
+                        </div>
+                      </div>
+						
+					<!-- summer IBB RA -->
+					<div class="exp">
+                        <div class="media-left"> <span class="sun">2016 (June–Aug)</span> </div>
+                        <div class="media-body"> 
+                          <div class="company-logo"> <img src="images/IBB-logo.png" alt="" > </div>
+                          <h6>Research Assistant</h6>
+                          <p>Institute of Biochemistry and Biophysics (IBB),University of Tehran</p>
+                          <p>Tehran, Iran</p>
+                          <p class="margin-top-10">  <b style="color:black"> &mdash; </b> Identified significant <b>molecular interactions</b> between disease genes for <b>non-syndromic cleft lip/palate</b> in order to provide insight into its complex aetiology <b style="color:black">(Published in EJHG 2019)</b></p>
+                        </div>
+                      </div>
+						
+					<!-- University of Tehran Master -->
+					<div class="exp">
+                        <div class="media-left"> <span class="sun">2013 - 2015</span> </div>
+                        <div class="media-body"> 
+                          <div class="company-logo"> <img src="images/UT-logo.png" alt="" > </div>
+                          <h6>Research Assistant</h6>
+                          <p>Research Laboratory of Computational Systems Biology, University of Tehran</p>
+							<p>Tehran, Iran</p>
+                          <p class="margin-top-10">  <b style="color:black"> &mdash; </b> Proposed a novel <b>game-theoretic method</b> to identify cancer network-based markers
+(M.Sc. thesis project). This method has been implemented with R and Matlab, applied to
+							  <b>metastasis breast cancer</b> samples in order to extract active-disease modules in protein-protein
+interaction network, leading to build robust classifier <b style="color:black">(Published in Molecular
+							  BioSystems 2016)</b>.</br>
+							  <b style="color:black"> &mdash; </b> Developed a <b>Cytoscape</b> module for identifying integrated active modules using gene
+expression profile and protein interaction networks <b style="color:black">(CytoGTA – Available in Cytoscape
+							  App Store, Published in PloS One 2017)</b>.
+							
+							</p>
+                        </div>
+                      </div>
+						
+						
+					<!-- DAF -->
+					<div class="exp">
+                        <div class="media-left"> <span class="sun">2012 - 2017</span> </div>
+                        <div class="media-body"> 
+                          <div class="company-logo"> <img src="images/daf-logo.png" alt="" > </div>
+                          <h6>Data Analyst</h6>
+                          <p>Dadeh Gostaran Asia Faranegar (DAF Inc.)</p>
+                          <p>Tehran, Iran</p>
+                          <p class="margin-top-10">  <b style="color:black"> &mdash; </b> Developed a <b>media monitoring solution</b> for Farsi language by collecting vast amounts of human-generated content from news websites and social networks.</br>
+							  <b style="color:black"> &mdash; </b> Implemented a <b>spam-filtering</b> application using <b>Bayesian statistical learning</b> with MATLAB.</br>
+							<b style="color:black"> &mdash; </b> Implemented a web-based content management system for various customers with <b>PHP</b> and <b>MySQL</b>
+							</p>
+                        </div>
+                      </div>
+						
+						
+                    </div>
+                  </div>
+                  
+                  <!-- Academic Background -->
+                  <div class="inside-sec margin-top-10"> 
+                    <!-- Academic Background -->
+                    <h5 class="tittle">Academic Background</h5>
+                    <div class="padding-30 exp-history"> 
+                      
+                      <!-- Wordpress Developer -->
+                      <div class="exp">
+                        <div class="media-left"> <span class="sun">2017 - Present</span> </div>
+                        <div class="media-body"> 
+                          <!-- Umass Boston  -->
+                        <div class="company-logo"> <span class="diploma"><i class="fa fa-graduation-cap"></i></span> </div>
+                          <h6>Ph.D. Computational Sciences</h6>
+                          <p>University of Massachusetts Boston</p>
+                          <p>Boston, MA</p>
+                          <p class="margin-top-10"> 
+							  I am currently doing my Ph.D. under supervision of <b>Dr. Kourosh Zarringhalam</b> and <b>Dr. Jill Macoska</b>.
+						  </p>
+                        </div>
+                      </div>
+                      
+						
+						                      <div class="exp">
+                        <div class="media-left"> <span class="sun">2013 - 2015 </span> </div>
+                        <div class="media-body"> 
+                          <!-- COmpany Logo -->
+                          <div class="company-logo"> <span class="diploma"><i class="fa fa-graduation-cap"></i> </span> </div>
+                          <h6>Health Information Technology Engineering</h6>
+                          <p>University of Tehran</p>
+                          <p>Tehran, Iran</p>
+                          <p class="margin-top-10">
+							  I recieved my master's degree under supervision of <b>Dr. Zahra Razaghi Moghadam Kashani</b> and <b>Dr. Naser Ansari-Pour</b>
+						   </p>
+							
+                        </div>
+                      </div>
+						
+                    </div>
+                  </div>
+		  
+		  
+		  
+		  
+		  
+		  <!-- Professional Skills -->
+                  <div class="inside-sec margin-top-10"> 
+                    <!-- Academic Background -->
+                    <h5 class="tittle">Professional Skills</h5>
+                    <div class="padding-30 exp-history"> 
+                      <div class="skill_list">
+						  <div class="skill">
+							  
+							  <h6>Machine Learning</h6>
+					 <ul>					 
+						
+						<li>Linear & Logistic Regression</li>
+						<li>Clustering & Classification</li>
+						<li>HMM, PGM, Deep Learning</li>
+						<li>Graphical Probabilistic  Modeling</li>
+						<li>Dimensionality Reductions and Manifold</li>
+					 </ul>
+						  
+						  </div>
+					    
+					 <div class="skill">
+						 <h6>Bioinformatics Framework</h6>
+						 <ul>					 
+							<li>RNA-Seq (Bulk and Single Cell)</li>
+							<li>Protein Interaction</li>
+							<li>Gene Regulatory Network</li>
+							<li>Biomarker Discovery</li>
+							<li>Cancer Genomics</li>
+							<li>Tophat/Cufflink, STAR/RSEM</li>
+							<li>Network Inference</li>
+						 </ul>
+					 </div>
+	 <div class="skill">
+						 <h6>Mathematics</h6>
+						 <ul>					 
+							<li>Linear Algebra</li>
+							<li>Numerical Analysis</li>
+							<li>Optimization</li>
+						 </ul>
+					 </div>
+
+
+					 <div class="clearfix"></div>
+					 <div class="skill">
+						 <h6>Programming Languages</h6>
+						 <ul>					 
+
+							<li>C#(Proficient)</li>
+							<li>C/C++</li>
+							<li>Java</li>
+							<li>PHP</li>
+						 </ul>
+					 </div>
+					 <div class="skill">
+						 <h6>Script Languages</h6>
+						 <ul>					 
+							<li>R(Proficient)</li>
+							<li>Python</li>
+							<li>Bash and LSF</li>
+						 </ul>
+					 </div>
+	 <div class="skill">
+						 <h6>Query/Transaction Languages</h6>
+						 <ul>					 
+							<li>SQL(Proficient)</li>
+							<li>LINQ to SQL</li>
+						 </ul>
+					 </div>
+
+
+					 <div class="clearfix"></div>
+	 <div class="skill">
+						 <h6>UI/UX</h6>
+						 <ul>					 
+							<li>HTML(Proficient)</li>
+							<li>CSS/3(Proficient)</li>
+							<li>Java Script/Ajax</li>
+						 </ul>
+					 </div>
+	 <div class="skill">
+						 <h6>Software</h6>
+						 <ul>					 
+							<li>Cytoscape</li>
+							<li>VMD</li>
+							<li>emacs</li>
+							<li>Loupe Cell Browser</li>
+							<li>IGV</li>
+							<li>Gephi</li>
+							<li>Visual Studio</li>
+							<li>Git, SVN</li>
+							<li>Jupyter Lab</li>
+						 </ul>
+					 </div>
+	 <div class="skill">
+						 <h6>Web Framework</h6>
+						 <ul>					 
+							<li>Asp.Net</li>
+							<li>Joomla</li>
+							
+						 </ul>
+					 </div>
+
+
+
+					 <div class="clearfix"></div>
+						    
+						</div>
+						
+                    </div>
+                  </div>
+		  
+		  
+		  
+		  
+		  
+		          
+                </div>
+                
+               <!-- publication -->
+                 <div role="tabpanel" class="tab-pane fade" id="publications">
+                  <div class="inside-sec"> 
+                    <!-- BIO AND SKILLS -->
+                    <h5 class="tittle">Publications</h5>
+                    
+                    <!-- biography -->
+                    <section class="about-me padding-top-5"> 
+                      <div class="padding-20">
+						  <p class="p">
+						
+							  <b style="color:black"> &mdash; </b> <b>S Farahmand</b>, T Riley, K Zarringhalam,
+“ModEx: A text mining system for extracting mode of regulation of Transcription Factor-gene
+							  regulatory interaction”, Journal of Biomedical Informatics, Feb. 2020.</br></br>
+							  
+							  <b style="color:black"> &mdash; </b> <b>S Farahmand</b>, C O’Connor, J A Macoska, K Zarringhalam,
+“Causal Inference Engine: A platform for directional gene set enrichment analysis and inference of
+						active transcriptional regulators”, Nucleic Acid Research, Nov. 2019. </br></br>
+					  
+					  <b style="color:black"> &mdash; </b> J. Noorbakhsh, <b>S Farahmand</b>, M Soltanieh Ha, S Namburi, K Zarringhalam, Jeff Chuang,
+“Deep learning functional associations using histopathology images”, Cancer Research, 2019.
+					  1632-1632. </br></br>
+					   
+					 <b style="color:black"> &mdash; </b> R Ietswaart, S Arat, A X Chen, <b>S Farahmand</b>, B Kim, W DuMouchel, D Armstrong, A Fekete, J
+Sutherland, L Urban, “Machine learning guided association of adverse drug reactions with in vitro
+					  target-based pharmacology”, BioRxiv, 750950, 2019 (Submitted to Nature Communication). </br></br>
+		
+		             <b style="color:black"> &mdash; </b> J Noorbakhsh, <b>S Farahmand</b>, M. Soltanieh-ha, S. Namburi, K. Zarringhalam, J. Chuang “Pancancer
+classifications of tumor histological images using deep learning”, BioRxiv, 715656, 2019
+		(Submitted to Nature Communication). </br></br>
+	  
+	  <b style="color:black"> &mdash; </b> Z Razaghi-Moghadam, A Namipashaki, <b>S Farahmand</b>, N Ansari-Pour, "Systems genetics of
+nonsyndromic orofacial clefting provides insights into its complex aetiology ", European Journal of
+Human Genetics, 27, pages 226–234, 2019 </br></br>
+	
+	 <b style="color:black"> &mdash; </b> A Vajdi, M R Zaghian, <b>S Farahmand</b>, E Rastegar, K Maroofi, S Jia, M Pomplun, N Haspel, A
+Bayat, “Human Gait Database for Normal Walk Collected by Smart Phone Accelerometer”, arXiv,
+	1905.03109, 2019. </br></br>
+	     
+	<b style="color:black"> &mdash; </b> <b>S Farahmand</b>, M H Foroughmand-Araabi, S Goliaei, Z Razaghi-Moghadam, "CytoGTA: A
+cytoscape plugin for identifying discriminative subnetwork markers using a game theoretic
+	approach", PLOS ONE, Vol. 12, Oct. 2017, pp. e0185016. </br></br>
+	
+	<b style="color:black"> &mdash; </b> <b>S Farahmand</b>, S Goliaei, N Ansari-Pour, Z. Razaghi-Moghadam,"GTA: a Game Theoretic
+Approach to Identifying Cancer Subnetwork Markers”, Molecular BioSystems, Vol. 12, Dec. 2015,
+	pp. 818-825. </br></br>
+
+<b style="color:black"> &mdash; </b> <b>S Farahmand</b>, S Goliaei, Kashani Z.R.M., Farahmand S. “Identifying Cancer Subnetwork
+Markers Using Game Theory Method.” International Conference on Biomedical and Health
+Informatics, 105-109, 2015.
+						  
+						  </p>
+						     
+							
+                        
+                      </div>
+
+                      
+
+                    </section>
+                  </div>
+                </div>
+                
+                <!-- BLOG -->
+                <div role="tabpanel" class="tab-pane fade" id="blog">
+                  <div class="inside-sec"> 
+                    <!-- BIO AND SKILLS -->
+                    <h5 class="tittle">Research Blog</h5>
+                    
+                    <!-- Blog -->
+                    <section class="blog blog-page padding-20 padding-top-50 padding-bottom-50 "> 
+                      
+                      <!-- Blog Post -->
+                      <article> <img class="img-responsive" src="images/blog-MODEX.jpg" alt="" >
+                        <div class="post-info">
+                          <div class="post-in">
+							  <div class="extra"> <span><i class="icon-calendar"></i>Jan 10, 2020</span></div>
+                            <a href="#." class="tittle-post"> MODEX was published in JBI </a>
+                            <p>Our study on using NLP to automate gene regulatory annotation,<a href="https://www.sciencedirect.com/science/article/pii/S1532046419302746">MODEX</a>, was just published in Journal of Biomedical Informatics. Our text mining framework mines PubMed database to extract various meta data for regulatory interactions including ChIP-Seq experiments. An HTTP REST interface is also provided to make queries programmatically.</p>
+                            </div>
+                        </div>
+                      </article>
+                      
+                      <!-- BLOG POST -->
+                      <article> <img class="img-responsive" src="images/blog-CIE.jpeg" alt="" >
+                        <div class="post-info">
+                          <div class="post-in">
+                            <div class="extra"> <span><i class="icon-calendar"></i>Nov 15, 2019</span> </div>
+                            <a href="#." class="tittle-post"> CIE was published in Nucleic Acid Research </a>
+                            <p>Proud to present our recent paper published in Nucleic Acids Research. </br>
+We present <a href="https://academic.oup.com/nar/article/47/22/11563/5614570"> CIE</a>, an integrated platform for identification and interpretation of active regulators of transcriptional response. The platform offers visualization tools and pathway enrichment analysis to map predicted regulators to Reactome pathways. We provide a parallelized R-package and a Webserver for fast and flexible regulatory inference analysis on any user-provided custom regulatory network and dysregulated genes.
+To increase the performance, we constructed a transcriptional regulatory network by integrating publicly available ChIP-seq experiments with tissue-specific RNA-seq experiments using a regularized Gaussian Graphical Model. </p>                        </div>
+                      </article>
+                      
+                      <!-- BLOG POST -->
+                     
+                      
+                      <!-- Pagination -->
+                      <ul class="pagination">
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">Next</a></li>
+                      </ul>
+                    </section>
+                  </div>
+                </div>
+                
+                <!-- Contact -->
+                <div role="tabpanel" class="tab-pane fade" id="contact">
+                  <div class="inside-sec"> 
+                    <!-- BIO AND SKILLS -->
+                    <h5 class="tittle">CONATCT ME</h5>
+                    
+                    <!-- Conatct Pages  -->
+                    <section>
+                      <div class="padding-left-30 padding-right-30 padding-top-50 padding-bottom-50">
+                        <div class="row "> 
+                          <!-- Phone Number  -->
+                          <div class="col-md-4 text-center">
+                            <div class="icon-box ib-style-1 ib-circle ib-bordered ib-bordered-white ib-bordered-thin ib-medium ib-text-alt i-xlarge dark-text">
+                              <div class="ib-icon"> <i class="fa fa-mobile text-primary"></i> </div>
+                              <div class="ib-info text-dark">
+								<p><b style="color: black">Office:</b></p>
+                                <p>617-287-3237</p>
+                                
+                              </div>
+                            </div>
+                          </div>
+                          
+                          <!-- Address -->
+                          <div class="col-md-4 text-center">
+                            <div class="icon-box ib-style-1 ib-circle ib-bordered ib-bordered-white ib-bordered-thin ib-medium ib-text-alt i-large">
+                              <div class="ib-icon"> <i class="fa fa-map-marker text-primary"></i> </div>
+                              <div class="ib-info text-dark">
+                                <p>Biology Department, University of Massachusetts Boston, Center for Personalized Cancer Therapy, ISC/5360, 100 Morrissey Boulevard, Boston, MA, 02125</p>
+                              </div>
+                            </div>
+                          </div>
+                          
+                          <!-- Email  -->
+                          <div class="col-md-4 text-center">
+                            <div class="icon-box ib-style-1 ib-circle ib-bordered ib-bordered-white ib-bordered-thin ib-medium ib-text-alt i-large">
+                              <div class="ib-icon"> <i class="fa fa-envelope-o text-primary"></i> </div>
+                              <div class="ib-info text-dark">
+                                <p class="no-margin-bottom"><a href="#." class="text-white">samanfm'at'gmail.com</a></p>
+                                <p class="no-margin-bottom"><a href="#." class="text-white">saman.farahmand001'at'umb.edu</a></p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <!-- MAP -->
+                      <section class="map-block">
+                        <div class="map-wrapper" id="map-canvas" data-lat="42.314227" data-lng="-71.040992" data-zoom="13" data-style="1"></div>
+                        <div class="markers-wrapper addresses-block"> <a class="marker" data-rel="map-canvas" data-lat="42.314227" data-lng="-71.040992" data-string="Envato"></a> </div>
+                      </section>
+                      
+                    </section>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- End Content --> 
+  
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="rights">
+      <p>© Copyright 2016 MotiCV. All right reserved.</p>
+    </div>
+  </footer>
+  <!-- End Footer --> 
+  
+</div>
+<!-- End Page Wrapper --> 
+
+<!-- JavaScripts --> 
+<script src="js/vendors/jquery/jquery.min.js"></script> 
+<script src="js/vendors/bootstrap.min.js"></script> 
+<script src="js/vendors/owl.carousel.min.js"></script> 
+<script src="js/vendors/jquery.isotope.min.js"></script> 
+<script src="js/main.js"></script> 
+
+<!-- Begin Map Script--> 
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script> 
+<script src="js/vendors/map.js"></script>
+</body>
+</html>
